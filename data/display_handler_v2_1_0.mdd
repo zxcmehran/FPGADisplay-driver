@@ -1,0 +1,19 @@
+##############################################################################
+## FPGA Display Handler IP Core By Mehran Ahadi (http://mehran.ahadi.me)
+## This IP allows you to draw shapes and print texts on VGA screen.
+## Copyright (C) 2015-2016  Mehran Ahadi
+## This work is released under MIT License.
+##
+## Description:       Microprocessor Driver Definition
+## Date:              Mon Aug 08 23:53:13 2016 (by Create and Import Peripheral Wizard)
+##############################################################################
+
+OPTION psf_version = 2.1.0;
+
+BEGIN DRIVER display_handler
+
+  OPTION supported_peripherals = (display_handler);
+  OPTION depends = (common_v1_00_a);
+  OPTION copyfiles = all;
+
+END DRIVER
