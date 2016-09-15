@@ -30,7 +30,7 @@ If you are not using default `640x480` resolution, then set the actual display m
     setResolution(1024, 768);
 
 ## Terminal-like area
-Terminal-like area is placed on the bottom of the screen. It behaves just like a Linux Terminal / Windows Command Prompt output area and scrolls up the placed text upon line overflow or inserting a new line. You can see an example of repetitive insertion of "`This is a test!`" string on the preview image above. It also supports control characters like `\t`, `\r`, and `\n`.
+Terminal-like area is placed on the bottom of the screen. It behaves just like a Linux Terminal / Windows Command Prompt output area and scrolls up the placed text upon line overflow or inserting a new line. You can see an example of repetitive insertion of "`This is a test! `" string on the preview image above. It also supports control characters like `\t`, `\r`, and `\n`.
 
 If you are going to use terminal-like area on the screen, then you should set the size of the area by calling `setLineCount()`. By default, 3 lines are used.
 
