@@ -1,6 +1,6 @@
 # FPGA Display (IP Driver)
 
-**Quick Access: This is the IP Driver repository. Check [FPGADisplay-ipcore](https://github.com/zxcmehran/FPGADisplay-ipcore) repository for main IP Core files.**
+**Quick Access: This is the IP Driver repository. Check [FPGADisplay-ipcore](https://github.com/zxcmehran/FPGADisplay-ipcore) repository for main IP Core files. You might also want to see [Persian Introduction | معرفی به زبان پارسی](https://mehran.ahadi.me/projects/bsc-project/fa/).**
 
 It's the C Driver library used in pair with [FPGADisplay-ipcore](https://github.com/zxcmehran/FPGADisplay-ipcore) to control VGA Display. Its required to install the driver along main IP Core to be able to programmatically control display output.
 
